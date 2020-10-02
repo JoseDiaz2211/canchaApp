@@ -51,6 +51,12 @@ class _HomePageState extends State<HomePage> {
             title: TitleAppbar(
               title: "CanchaApp",
             ),
+            actions: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Icon(Icons.calendar_today),
+              )
+            ],
           ),
           body: ListaCanchaWidget(),
         ),
